@@ -1,0 +1,98 @@
+body{
+    width: 1000px;
+    height: 2000px;
+}
+#titleBox{
+    height: 300px;
+    width: 500px;
+    background-color:#f9f5bc;
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+    color:white;
+    font-size: 60px;
+}
+#parentTitleBox{
+    margin:40px auto auto 20px;
+}
+
+#instructionBox{
+    margin: 40px auto auto 20px;
+    height: 1000px;
+    width: 1500px;
+    background-color:tan;
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+    color:green;
+    font-size: 15px;
+}
+#parentNumBox{
+    margin:40px auto auto 20px;
+    width: 600px;
+    background-color:aquamarine;
+    height: 300px
+}
+
+#wlBox{
+    margin: 40px auto auto 20px;
+    width: 200px;
+    height: 300px;
+    background-color:aqua;
+    float: right;
+}
+
+#parentCrystalPics{
+    margin: 40px auto auto 20px;
+    height:200px;
+    width: 600px;
+    background-color: aliceblue;
+}
+
+.box1{
+    margin: 40px auto auto 20px;
+    width: 60px;
+    height: 100%;
+    float: left;
+}
+
+.box2{ 
+    margin: 40px auto auto 20px;
+    width: 60px;
+    height: 100%;
+    float: left;
+
+}
+
+.box3{
+    margin: 40px auto auto 20px;
+    width: 60px;
+    height: 100%;
+    float: left;
+
+}
+
+.box4{
+    margin: 40px auto auto 20px;
+    width: 60px;
+    height: 100%;
+    float: left;
+
+}
+
+#totalScore{
+    margin: 40px auto auto 20px;
+    width: 120px;
+    height: 20px;
+    float: left;
+
+}
+
+#total{
+    margin: 40px auto auto 20px;
+    width: 120px;
+    height: 60px;
+    float: left;
+
+
+}

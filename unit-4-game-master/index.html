@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+<meta charset="UTF-8"> 
+
+    <title>Crystal Collector</title>
+
+    <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+
+    <script 
+    scr="./unit-4-game-master/image/images (1).jpg">
+    scr="./unit-4-game-master/image/images (2).jpg">
+    scr="./unit-4-game-master/image/images (3).jpg">
+    scr="./unit-4-game-master/image/images (4).jpg">
+
+    </script>
+
+</head>
+
+
+<body>
+    <div id= 'parentTitleBox'></div>
+        <div id= 'titleBox'> 
+        Crystal Collector!</div>
+
+    <div id="instructionBox">
+        <p> "You will be given a random number at the start of the game." </p>
+
+        <p>"There are for crystals below. By clicking on a crystal you would add a specfic amount of points to your total score."
+        </p>
+
+        <p>"You win the game by matching your total score to random number, you lose the game if your total score goes above the random number." </p>
+
+        <p>"The value of each crystal in hidden from you until you click on it." 
+        </p>
+                
+
+        <p>"Each time when the game starts, the game will change the values of each crystal."
+        </p>
+
+    </div>
+
+    <div id="parentNumBox"></div>
+        <div class="rNumBox">
+        </div>  
+
+            
+    <script type="text/javascript">
+        var computerChoices = ["1","2","3","4","5","6","7","8","9","10"]
+
+        var wins = 0;
+        var losses = 0;
+        var numGuesses = 6;
+        var guessChoices = [];
+
+        document.onkeyup = $(event) {
+            var userGuess = event.key;
+            var computerGuess = computerChoices[Math.floor(Math.random()*computerChoices.length)];
+            var options = ["1","2","3","4","5","6","7","8","9","10"]
+
+            if (options.indexOf(userGuess)> -1){
+                if (userGuess = computerGuess){
+                    numGuesses --;
+                    guessChoices.push(userGuess);
+            }
+
+            if (numGuesses === 0)
+
+            numGuesses = 6;
+            losses ++;
+            guessChoices = [];
+
+            </script>
+
+
+            <div class= "wlBox">
+            </div>
+
+        <div id="parentCrystalPics">
+
+        
+            <button type="btn1">
+                <div class="box1">
+                </div>
+
+                <img src="images (1).jpg">
+
+                
+
+            </button>
+
+            <button type="btn2">
+                <div class="box2">
+                </div>
+
+                <img src="images (2).jpg">
+
+            </button>
+              
+            <button type="btn3">
+                <div class="box3">
+                </div>
+
+               <img src="images (3).jpg">
+                
+            </button>
+
+            <button type="btn4">
+                <div class="box4">
+                </div>
+                <img src="images (4).jpg">
+      
+        <div id='totalScore'>
+            
+            
+            
+             </div>
+
+
+        <div id='total'>
+
+        </div>
+            
+
+        
+
+
+  
+
+
+    
+
+   
+
+</body>
+</html>
